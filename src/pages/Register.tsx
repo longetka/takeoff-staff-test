@@ -18,20 +18,29 @@ export const Register: React.FC = () => {
                     type="text"
                     label="Имя"
                     placeholder="Введите своё Имя"
+                    value={''}
+                    onFn={(e) => console.log(e)}
                 />
                 <Input
                     id="email"
                     type="email"
                     label="Email"
                     placeholder="Введите Email"
+                    value={''}
+                    onFn={(e) => console.log(e)}
                 />
                 <Input
                     id="password"
                     type="password"
                     label="Пароль"
                     placeholder="Введите пароль"
+                    value={''}
+                    onFn={(e) => console.log(e)}
                 />
-                <Button text="Зарегистрироваться" />
+                <Button
+                    text="Зарегистрироваться"
+                    onFn={(e) => console.log(e)}
+                />
                 <p>у меня есть аккаунт</p>
                 <NavLink href="/login" text="Войти" />
             </Form>
