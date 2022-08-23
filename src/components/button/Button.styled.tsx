@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 export const ButtonStyled = styled.button`
+    height: min-content;
     margin: 1.25rem 0;
     border: none;
     background-color: indigo;

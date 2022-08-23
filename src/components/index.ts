@@ -1,4 +1,5 @@
 import { AddContact } from './addContact/AddContact';
+import { AddUser } from './addUser/AddUser';
 import { Container } from './container/Container';
 import { Contacts } from './contacts/Contacts';
 import { ContactsRow } from './contactsRow/ContactsRow';
@@ -11,6 +12,7 @@ import { Subtitle } from './subtitle/Subtitle';
 
 export {
     AddContact,
+    AddUser,
     Container,
     Contacts,
     ContactsRow,

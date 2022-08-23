@@ -1,7 +1,7 @@
 import React from 'react';
 import { ContactsStyled } from './Contacts.styles';
 import { ContactsRow } from '../index';
-import { useGetContactsQuery } from '../../app/contactsApi';
+import { useGetContactsQuery } from '../../app/contacts/contactsApi';
 
 export const Contacts: React.FC = () => {
     const { data = [] } = useGetContactsQuery();

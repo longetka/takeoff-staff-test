@@ -1,6 +1,6 @@
 import React, { useState, ChangeEvent, MouseEvent } from 'react';
 import { Container, Input, Button } from '../index';
-import { useAddContactMutation } from '../../app/contactsApi';
+import { useAddContactMutation } from '../../app/contacts/contactsApi';
 
 export const AddContact: React.FC = () => {
     const [name, setName] = useState<string>('');
@@ -15,7 +15,7 @@ export const AddContact: React.FC = () => {
     };
 
     return (
-        <Container direction="row">
+        <Container direction="row" align="end">
             <Input
                 id="name"
                 type="text"

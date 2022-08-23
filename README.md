@@ -10,7 +10,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ### `npm install`
 
-### `npm start`
+### `npm run dev`
 
-Приложение запуститься в режиме разработки.\
+Приложение запуститься в режиме разработки параллельно с json-server.\
 Перейдите по адресу: [http://localhost:3000](http://localhost:3000).

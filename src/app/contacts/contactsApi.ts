@@ -1,6 +1,6 @@
 import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
-import type { ContactsResponse } from './types';
-import { Contact } from './interfaces';
+import type { ContactsResponse } from '../utils/types';
+import { Contact } from '../utils/interfaces';
 
 export const contactsApi = createApi({
     reducerPath: 'contactsApi',
