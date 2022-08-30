@@ -7,6 +7,7 @@ interface IInput {
     placeholder: string;
     label: string;
     value: string;
+    require?: boolean;
     onFn(e: ChangeEvent): void;
 }
 
@@ -16,6 +17,7 @@ export const Input: React.FC<IInput> = ({
     placeholder,
     label,
     value,
+    require,
     onFn,
 }) => {
     return (
@@ -26,6 +28,7 @@ export const Input: React.FC<IInput> = ({
                 type={type}
                 placeholder={placeholder}
                 value={value}
+                required={require}
                 onChange={onFn}
             />
         </InputStyled>

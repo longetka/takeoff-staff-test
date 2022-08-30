@@ -11,12 +11,10 @@ const container = document.getElementById('root')!;
 const root = createRoot(container);
 
 root.render(
-    <React.StrictMode>
+    <Provider store={store}>
         <GlobalStyles />
         <BrowserRouter>
-            <Provider store={store}>
-                <App />
-            </Provider>
+            <App />
         </BrowserRouter>
-    </React.StrictMode>
+    </Provider>
 );

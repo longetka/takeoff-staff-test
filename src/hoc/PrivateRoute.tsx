@@ -1,4 +1,6 @@
 import React from 'react';
+import { useAppSelector } from '../app/hooks';
+import { selectAuth } from '../app/auth/authSlice';
 import { Navigate, useLocation } from 'react-router-dom';
 
 interface IPrivateRoute {
@@ -6,10 +8,11 @@ interface IPrivateRoute {
 }
 
 export const PrivateRoute: React.FC<IPrivateRoute> = ({ children }) => {
-    const isAuth = false;
+    const authState = useAppSelector(selectAuth);
     const location = useLocation();
+    console.log(authState);
 
-    if (!isAuth) {
+    if (!authState.isAuth) {
         return <Navigate to="/login" state={{ from: location }} />;
     }
 

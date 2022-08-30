@@ -25,6 +25,7 @@ export const AddContact: React.FC = () => {
                 onFn={(e: ChangeEvent<HTMLInputElement>) =>
                     setName(e.target.value)
                 }
+                require
             />
             <Input
                 id="phone"
@@ -35,6 +36,7 @@ export const AddContact: React.FC = () => {
                 onFn={(e: ChangeEvent<HTMLInputElement>) =>
                     setPhone(e.target.value)
                 }
+                require
             />
             <Button
                 text="Добавить"

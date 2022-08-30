@@ -10,3 +10,9 @@ export interface User {
     name: string;
     password: string;
 }
+
+export interface AuthState {
+    isAuth: boolean;
+    name: string;
+    email: string;
+}

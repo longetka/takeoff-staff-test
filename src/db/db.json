@@ -1,44 +1,48 @@
 {
-    "users": [
-        {
-            "id": 1,
-            "name": "Denis",
-            "email": "a@mail.ru",
-            "password": "12345"
-        },
-        {
-            "name": "Example",
-            "email": "a@mail.ru",
-            "password": "12345",
-            "id": 2
-        }
-    ],
-    "contacts": [
-        {
-            "id": 1,
-            "name": "Antoine",
-            "phone": "+79997771010"
-        },
-        {
-            "id": 2,
-            "name": "Michael",
-            "phone": "+79997761010"
-        },
-        {
-            "id": 3,
-            "name": "Denis",
-            "phone": "+79997751010"
-        },
-        {
-            "name": "Example",
-            "phone": "+79991002030",
-            "id": 4
-        },
-        {
-            "name": "Artem",
-            "phone": "+79991012131",
-            "id": 5
-        }
-    ]
+  "users": [
+    {
+      "id": 1,
+      "name": "Denis",
+      "email": "a@mail.ru",
+      "password": "12345"
+    },
+    {
+      "name": "Example",
+      "email": "b@mail.ru",
+      "password": "12345",
+      "id": 2
+    }
+  ],
+  "contacts": [
+    {
+      "id": 1,
+      "name": "Antoine",
+      "phone": "+79997771010"
+    },
+    {
+      "id": 2,
+      "name": "Michael",
+      "phone": "+79997761010"
+    },
+    {
+      "id": 3,
+      "name": "Denis",
+      "phone": "+79997751010"
+    },
+    {
+      "name": "Example",
+      "phone": "+79991002030",
+      "id": 4
+    },
+    {
+      "name": "Artem",
+      "phone": "+79991012131",
+      "id": 5
+    },
+    {
+      "name": "",
+      "phone": "",
+      "id": 6
+    }
+  ]
 }
-
