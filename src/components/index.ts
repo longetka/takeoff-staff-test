@@ -3,6 +3,9 @@ import { AddUser } from './addUser/AddUser';
 import { Container } from './container/Container';
 import { Contacts } from './contacts/Contacts';
 import { ContactsRow } from './contactsRow/ContactsRow';
+import { ContactsMenu } from './contactsMenu/ContactsMenu';
+import { DeleteContact } from './deleteContact/DeleteContact';
+import { EditContact } from './editContact/EditContact';
 import { Form } from './form/Form';
 import { Input } from './input/Input';
 import { Title } from './title/Title';
@@ -19,6 +22,9 @@ export {
     Container,
     Contacts,
     ContactsRow,
+    ContactsMenu,
+    DeleteContact,
+    EditContact,
     Form,
     Input,
     Title,
